@@ -91,3 +91,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    class func isIPhone5 () -> Bool{
+        return max(UIScreen.main.bounds.width, UIScreen.main.bounds.height) == 568.0
+    }
+    class func isIPhone6 () -> Bool {
+        return max(UIScreen.main.bounds.width, UIScreen.main.bounds.height) == 667.0
+    }
+    class func isIPhone6Plus () -> Bool {
+        return max(UIScreen.main.bounds.width, UIScreen.main.bounds.height) == 736.0
+    }
+    class func isIPhoneX() -> Bool {
+        return max(UIScreen.main.bounds.width, UIScreen.main.bounds.height) == 812.0
+    }
+    class func isIPhoneXRorIPhoneXsMax() -> Bool {
+        return max(UIScreen.main.bounds.width, UIScreen.main.bounds.height) == 896.0
+    }
+}

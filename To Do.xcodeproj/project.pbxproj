@@ -8,22 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		8418F9882179B71300B7CE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418F9872179B71300B7CE29 /* AppDelegate.swift */; };
-		8418F98A2179B71300B7CE29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418F9892179B71300B7CE29 /* ViewController.swift */; };
 		8418F98D2179B71300B7CE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8418F98B2179B71300B7CE29 /* Main.storyboard */; };
 		8418F9902179B71300B7CE29 /* prostoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8418F98E2179B71300B7CE29 /* prostoApp.xcdatamodeld */; };
 		8418F9922179B71400B7CE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8418F9912179B71400B7CE29 /* Assets.xcassets */; };
 		8418F9952179B71400B7CE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8418F9932179B71400B7CE29 /* LaunchScreen.storyboard */; };
+		8418F99F2179B7AB00B7CE29 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418F99E2179B7AB00B7CE29 /* TableViewController.swift */; };
+		8418F9A32179C5D600B7CE29 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418F9A22179C5D600B7CE29 /* DetailViewController.swift */; };
+		8452FCB3217CD61500C16D10 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452FCB2217CD61500C16D10 /* TableViewCell.swift */; };
+		84EE077F21D014A5008F605E /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84EE077A21D014A4008F605E /* 4.gif */; };
+		84EE078021D014A5008F605E /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84EE077B21D014A4008F605E /* 3.gif */; };
+		84EE078121D014A5008F605E /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84EE077C21D014A4008F605E /* 5.gif */; };
+		84EE078221D014A5008F605E /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84EE077D21D014A5008F605E /* 1.gif */; };
+		84EE078321D014A5008F605E /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84EE077E21D014A5008F605E /* 2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8418F9842179B71300B7CE29 /* prostoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prostoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418F9842179B71300B7CE29 /* To DO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To DO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8418F9872179B71300B7CE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8418F9892179B71300B7CE29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8418F98C2179B71300B7CE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8418F98F2179B71300B7CE29 /* prostoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prostoApp.xcdatamodel; sourceTree = "<group>"; };
 		8418F9912179B71400B7CE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8418F9942179B71400B7CE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8418F9962179B71400B7CE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8418F99E2179B7AB00B7CE29 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8418F9A22179C5D600B7CE29 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8452FCB2217CD61500C16D10 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		84EE077421D006F3008F605E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84EE077A21D014A4008F605E /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		84EE077B21D014A4008F605E /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		84EE077C21D014A4008F605E /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		84EE077D21D014A5008F605E /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		84EE077E21D014A5008F605E /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +55,7 @@
 		8418F97B2179B71300B7CE29 = {
 			isa = PBXGroup;
 			children = (
+				84EE077421D006F3008F605E /* README.md */,
 				8418F9862179B71300B7CE29 /* prostoApp */,
 				8418F9852179B71300B7CE29 /* Products */,
 			);
@@ -48,7 +64,7 @@
 		8418F9852179B71300B7CE29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8418F9842179B71300B7CE29 /* prostoApp.app */,
+				8418F9842179B71300B7CE29 /* To DO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,22 +73,69 @@
 			isa = PBXGroup;
 			children = (
 				8418F9872179B71300B7CE29 /* AppDelegate.swift */,
-				8418F9892179B71300B7CE29 /* ViewController.swift */,
-				8418F98B2179B71300B7CE29 /* Main.storyboard */,
+				84EE077621D008CE008F605E /* MAIN controller */,
+				84EE077721D008E2008F605E /* DETAIL controller */,
+				84EE077521D008AD008F605E /* CELLS */,
+				84EE077821D008FB008F605E /* Interface bilders */,
 				8418F9912179B71400B7CE29 /* Assets.xcassets */,
-				8418F9932179B71400B7CE29 /* LaunchScreen.storyboard */,
+				84EE077921D01487008F605E /* gif */,
 				8418F9962179B71400B7CE29 /* Info.plist */,
 				8418F98E2179B71300B7CE29 /* prostoApp.xcdatamodeld */,
 			);
 			path = prostoApp;
 			sourceTree = "<group>";
 		};
+		84EE077521D008AD008F605E /* CELLS */ = {
+			isa = PBXGroup;
+			children = (
+				8452FCB2217CD61500C16D10 /* TableViewCell.swift */,
+			);
+			path = CELLS;
+			sourceTree = "<group>";
+		};
+		84EE077621D008CE008F605E /* MAIN controller */ = {
+			isa = PBXGroup;
+			children = (
+				8418F99E2179B7AB00B7CE29 /* TableViewController.swift */,
+			);
+			path = "MAIN controller";
+			sourceTree = "<group>";
+		};
+		84EE077721D008E2008F605E /* DETAIL controller */ = {
+			isa = PBXGroup;
+			children = (
+				8418F9A22179C5D600B7CE29 /* DetailViewController.swift */,
+			);
+			path = "DETAIL controller";
+			sourceTree = "<group>";
+		};
+		84EE077821D008FB008F605E /* Interface bilders */ = {
+			isa = PBXGroup;
+			children = (
+				8418F9932179B71400B7CE29 /* LaunchScreen.storyboard */,
+				8418F98B2179B71300B7CE29 /* Main.storyboard */,
+			);
+			path = "Interface bilders";
+			sourceTree = "<group>";
+		};
+		84EE077921D01487008F605E /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				84EE077D21D014A5008F605E /* 1.gif */,
+				84EE077E21D014A5008F605E /* 2.gif */,
+				84EE077B21D014A4008F605E /* 3.gif */,
+				84EE077A21D014A4008F605E /* 4.gif */,
+				84EE077C21D014A4008F605E /* 5.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8418F9832179B71300B7CE29 /* prostoApp */ = {
+		8418F9832179B71300B7CE29 /* To DO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8418F9992179B71400B7CE29 /* Build configuration list for PBXNativeTarget "prostoApp" */;
+			buildConfigurationList = 8418F9992179B71400B7CE29 /* Build configuration list for PBXNativeTarget "To DO" */;
 			buildPhases = (
 				8418F9802179B71300B7CE29 /* Sources */,
 				8418F9812179B71300B7CE29 /* Frameworks */,
@@ -82,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = prostoApp;
+			name = "To DO";
 			productName = prostoApp;
-			productReference = 8418F9842179B71300B7CE29 /* prostoApp.app */;
+			productReference = 8418F9842179B71300B7CE29 /* To DO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8418F97F2179B71300B7CE29 /* Build configuration list for PBXProject "prostoApp" */;
+			buildConfigurationList = 8418F97F2179B71300B7CE29 /* Build configuration list for PBXProject "To Do" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8418F9832179B71300B7CE29 /* prostoApp */,
+				8418F9832179B71300B7CE29 /* To DO */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +188,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EE078121D014A5008F605E /* 5.gif in Resources */,
 				8418F9952179B71400B7CE29 /* LaunchScreen.storyboard in Resources */,
+				84EE077F21D014A5008F605E /* 4.gif in Resources */,
+				84EE078321D014A5008F605E /* 2.gif in Resources */,
 				8418F9922179B71400B7CE29 /* Assets.xcassets in Resources */,
+				84EE078221D014A5008F605E /* 1.gif in Resources */,
 				8418F98D2179B71300B7CE29 /* Main.storyboard in Resources */,
+				84EE078021D014A5008F605E /* 3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8418F98A2179B71300B7CE29 /* ViewController.swift in Sources */,
+				8452FCB3217CD61500C16D10 /* TableViewCell.swift in Sources */,
 				8418F9902179B71300B7CE29 /* prostoApp.xcdatamodeld in Sources */,
+				8418F9A32179C5D600B7CE29 /* DetailViewController.swift in Sources */,
+				8418F99F2179B7AB00B7CE29 /* TableViewController.swift in Sources */,
 				8418F9882179B71300B7CE29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 352GM74267;
 				INFOPLIST_FILE = prostoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 352GM74267;
 				INFOPLIST_FILE = prostoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8418F97F2179B71300B7CE29 /* Build configuration list for PBXProject "prostoApp" */ = {
+		8418F97F2179B71300B7CE29 /* Build configuration list for PBXProject "To Do" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8418F9972179B71400B7CE29 /* Debug */,
@@ -328,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8418F9992179B71400B7CE29 /* Build configuration list for PBXNativeTarget "prostoApp" */ = {
+		8418F9992179B71400B7CE29 /* Build configuration list for PBXNativeTarget "To DO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8418F99A2179B71400B7CE29 /* Debug */,
