@@ -21,7 +21,7 @@
 ## Create new task
 
 <div align = "center">
-<img src="/gif/1.gif" width="350" />
+<img src="/gif/1.gif" width="350">
 </div>
 
 ## Create priority task 
