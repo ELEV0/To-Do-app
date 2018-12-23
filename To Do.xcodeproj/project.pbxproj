@@ -56,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				84EE077421D006F3008F605E /* README.md */,
+				84EE077921D01487008F605E /* gif */,
 				8418F9862179B71300B7CE29 /* prostoApp */,
 				8418F9852179B71300B7CE29 /* Products */,
 			);
@@ -78,7 +79,6 @@
 				84EE077521D008AD008F605E /* CELLS */,
 				84EE077821D008FB008F605E /* Interface bilders */,
 				8418F9912179B71400B7CE29 /* Assets.xcassets */,
-				84EE077921D01487008F605E /* gif */,
 				8418F9962179B71400B7CE29 /* Info.plist */,
 				8418F98E2179B71300B7CE29 /* prostoApp.xcdatamodeld */,
 			);
